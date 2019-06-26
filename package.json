@@ -29,8 +29,7 @@
         "prepare": "git submodule update --init --recursive",
         "semantic-release": "semantic-release",
         "test": "jest ./src/*.js",
-        "prettier": "prettier './**/*.{js,d.ts,js.flow,yml}'",
-	"postinstall": "git clone https://github.com/rs/SDWebImage.git ios/Vendor/SDWebImage && cd ios/Vendor/SDWebImage && git submodule update --init --recursive && cd ../../.."
+        "prettier": "prettier './**/*.{js,d.ts,js.flow,yml}'"
     },
     "config": {
         "commitizen": {
